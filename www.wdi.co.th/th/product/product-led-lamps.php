@@ -269,7 +269,9 @@ $ierp = $db->connect_sql();
                             if (!$has_replacement && !$has_accessories01 && !$has_accessories02 && !$has_car_brand_input) {
                                 echo "<ul class='product-catalog'><li>No products found for this category detail.</li></ul>";
                             }
+                            //test
                             ?>
+
 
                         </main>
                     </div>
