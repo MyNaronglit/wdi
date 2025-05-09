@@ -76,40 +76,40 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='contact-form-7-css' href='https://www.wdi.co.th/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='rs-plugin-settings-css' href='https://www.wdi.co.th/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='/www.wdi.co.th/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='/www.wdi.co.th/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.5.1' type='text/css' media='all' />
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {}
     </style>
-    <link rel='stylesheet' id='woocommerce-layout-css' href='https://www.wdi.co.th/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.4.8' type='text/css' media='all' />
-    <link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.wdi.co.th/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.4.8' type='text/css' media='only screen and (max-width: 768px)' />
-    <link rel='stylesheet' id='woocommerce-general-css' href='https://www.wdi.co.th/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.4.8' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css' href='/www.wdi.co.th/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.4.8' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href='/www.wdi.co.th/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.4.8' type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css' href='/www.wdi.co.th/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.4.8' type='text/css' media='all' />
     <style id='woocommerce-inline-inline-css' type='text/css'>
         .woocommerce form .form-row .required {
             visibility: visible;
         }
     </style>
-    <link rel='stylesheet' id='wpsl-styles-css' href='https://www.wdi.co.th/wp-content/plugins/wp-store-locator/css/styles.min.css?ver=2.2.15' type='text/css' media='all' />
-    <link rel='stylesheet' id='wpfront-scroll-top-css' href='https://www.wdi.co.th/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpsl-styles-css' href='/www.wdi.co.th/wp-content/plugins/wp-store-locator/css/styles.min.css?ver=2.2.15' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpfront-scroll-top-css' href='/www.wdi.co.th/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.1' type='text/css' media='all' />
     <link rel="stylesheet" href="\wdi\www.wdi.co.th\wp-content\themes\wdi\css\bootstrap.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="\wdi\www.wdi.co.th\wp-content\themes\wdi\style.css" type="text/css" media="all" />
 
-    <link rel='stylesheet' id='font-awesome-css' href='https://www.wdi.co.th/wp-content/themes/wdi/css/font-awesome.min.css?ver=9a30e44c1415efb53499654793754fec' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='/www.wdi.co.th/wp-content/themes/wdi/css/font-awesome.min.css?ver=9a30e44c1415efb53499654793754fec' type='text/css' media='all' />
     <link rel='stylesheet' id='googleFonts-css' href='https://fonts.googleapis.com/css?family=Play%3A400%2C700&#038;ver=9a30e44c1415efb53499654793754fec' type='text/css' media='all' />
-    <script type='text/javascript' src='https://www.wdi.co.th/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-    <script type='text/javascript' src='https://www.wdi.co.th/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-    <script type='text/javascript' src='https://www.wdi.co.th/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.2.5.1'></script>
-    <script type='text/javascript' src='https://www.wdi.co.th/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.5.1'></script>
-    <script type='text/javascript' src='https://www.wdi.co.th/wp-content/themes/wdi/js/bootstrap.js?ver=1'></script>
-    <script type='text/javascript' src='https://www.wdi.co.th/wp-content/themes/wdi/js/functions.js?ver=1'></script>
-    <link rel='https://api.w.org/' href='https://www.wdi.co.th/th/wp-json/' />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.wdi.co.th/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.wdi.co.th/wp-includes/wlwmanifest.xml" />
+    <script type='text/javascript' src='/www.wdi.co.th/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='/www.wdi.co.th/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='/www.wdi.co.th/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.2.5.1'></script>
+    <script type='text/javascript' src='/www.wdi.co.th/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.5.1'></script>
+    <script type='text/javascript' src='/www.wdi.co.th/wp-content/themes/wdi/js/bootstrap.js?ver=1'></script>
+    <script type='text/javascript' src='/www.wdi.co.th/wp-content/themes/wdi/js/functions.js?ver=1'></script>
+    <link rel='/api.w.org/' href='/www.wdi.co.th/th/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/www.wdi.co.th/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/www.wdi.co.th/wp-includes/wlwmanifest.xml" />
 
-    <link rel="canonical" href="https://www.wdi.co.th/th/about-wdi/" />
-    <link rel='shortlink' href='https://www.wdi.co.th/th/?p=39' />
-    <link rel="alternate" type="application/json+oembed" href="https://www.wdi.co.th/th/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wdi.co.th%2Fth%2Fabout-wdi%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="https://www.wdi.co.th/th/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wdi.co.th%2Fth%2Fabout-wdi%2F&#038;format=xml" />
+    <link rel="canonical" href="/www.wdi.co.th/th/about-wdi/" />
+    <link rel='shortlink' href='/www.wdi.co.th/th/?p=39' />
+    <link rel="alternate" type="application/json+oembed" href="/www.wdi.co.th/th/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wdi.co.th%2Fth%2Fabout-wdi%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="/www.wdi.co.th/th/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wdi.co.th%2Fth%2Fabout-wdi%2F&#038;format=xml" />
     <script type="text/javascript">
         (function(url) {
             if (/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)) {
@@ -147,29 +147,29 @@
             for (var i = 0; i < evts.length; i++) {
                 addEvent(evts[i], logHuman);
             }
-        })('//www.wdi.co.th/th/?wordfence_lh=1&hid=EED5C2F1AF1AFA8062091189BA14516F');
+        })('/www.wdi.co.th/th/?wordfence_lh=1&hid=EED5C2F1AF1AFA8062091189BA14516F');
     </script>
     <style type="text/css">
         .qtranxs_flag_en {
-            background-image: url(http://wdi-th.com/wp-content/plugins/qtranslate-x/flags/gb.png);
+            background-image: url(/wdi-th.com/wp-content/plugins/qtranslate-x/flags/gb.png);
             background-repeat: no-repeat;
         }
 
         .qtranxs_flag_TH {
-            background-image: url(http://wdi-th.com/wp-content/plugins/qtranslate-x/flags/th.png);
+            background-image: url(/wdi-th.com/wp-content/plugins/qtranslate-x/flags/th.png);
             background-repeat: no-repeat;
         }
     </style>
-    <link hreflang="en" href="https://www.wdi.co.th/en/about-wdi/" rel="alternate" />
-    <link hreflang="th" href="https://www.wdi.co.th/th/about-wdi/" rel="alternate" />
-    <link hreflang="x-default" href="https://www.wdi.co.th/about-wdi/" rel="alternate" />
+    <link hreflang="en" href="/www.wdi.co.th/en/about-wdi/" rel="alternate" />
+    <link hreflang="th" href="/www.wdi.co.th/th/about-wdi/" rel="alternate" />
+    <link hreflang="x-default" href="/www.wdi.co.th/about-wdi/" rel="alternate" />
     <meta name="generator" content="qTranslate-X 3.4.6.8" />
     <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
     <meta name="generator" content="Powered by Slider Revolution 5.2.5.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <link rel="icon" href="https://www.wdi.co.th/wp-content/uploads/2015/09/cropped-WDI_siteicon_512-150x150.png" sizes="32x32" />
-    <link rel="icon" href="https://www.wdi.co.th/wp-content/uploads/2015/09/cropped-WDI_siteicon_512-300x300.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="https://www.wdi.co.th/wp-content/uploads/2015/09/cropped-WDI_siteicon_512-300x300.png" />
-    <meta name="msapplication-TileImage" content="https://www.wdi.co.th/wp-content/uploads/2015/09/cropped-WDI_siteicon_512-300x300.png" />
+    <link rel="icon" href="/www.wdi.co.th/wp-content/uploads/2015/09/cropped-WDI_siteicon_512-150x150.png" sizes="32x32" />
+    <link rel="icon" href="/www.wdi.co.th/wp-content/uploads/2015/09/cropped-WDI_siteicon_512-300x300.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="/www.wdi.co.th/wp-content/uploads/2015/09/cropped-WDI_siteicon_512-300x300.png" />
+    <meta name="msapplication-TileImage" content="/www.wdi.co.th/wp-content/uploads/2015/09/cropped-WDI_siteicon_512-300x300.png" />
 
 </head>
 
@@ -180,143 +180,12 @@
 
     <div id="main" class="site-main">
         <link href="https://fonts.googleapis.com/css?family=Play%3A400%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
-        <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-            <!-- START REVOLUTION SLIDER 5.2.5.1 fullwidth mode -->
-            <div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.2.5.1">
-                <ul>
-                    <!-- SLIDE  -->
-                    <li data-index="rs-6" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="https://www.wdi.co.th/wp-content/uploads/2015/11/sSlideTest1-100x50.jpg"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="/wdi/www.wdi.co.th/wp-content/plugins/revslider/admin/assets/images/dummy.png" alt="" title="sSlideTest1" width="3186" height="1280" data-lazyload="https://www.wdi.co.th/wp-content/uploads/2015/11/sSlideTest1.jpg" data-bgposition="center center"
-                            data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                        <!-- LAYERS -->
-                    </li>
-                </ul>
-                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-            </div>
-            <script>
-                var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
-                var htmlDivCss = "";
-                if (htmlDiv) {
-                    htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-                } else {
-                    var htmlDiv = document.createElement("div");
-                    htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-                    document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-                }
-            </script>
-            <script type="text/javascript">
-                /******************************************
-                				-	PREPARE PLACEHOLDER FOR SLIDER	-
-                			******************************************/
-
-                var setREVStartSize = function() {
-                    try {
-                        var e = new Object,
-                            i = jQuery(window).width(),
-                            t = 9999,
-                            r = 0,
-                            n = 0,
-                            l = 0,
-                            f = 0,
-                            s = 0,
-                            h = 0;
-                        e.c = jQuery('#rev_slider_2_1');
-                        e.responsiveLevels = [1170, 970, 970, 970];
-                        e.gridwidth = [1170, 970, 750, 480];
-                        e.gridheight = [470, 470, 400, 400];
-
-                        e.sliderLayout = "fullwidth";
-                        if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
-                                f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
-                            }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
-                            var u = (e.c.width(), jQuery(window).height());
-                            if (void 0 != e.fullScreenOffsetContainer) {
-                                var c = e.fullScreenOffsetContainer.split(",");
-                                if (c) jQuery.each(c, function(e, i) {
-                                    u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
-                                }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
-                            }
-                            f = u
-                        } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
-                        e.c.closest(".rev_slider_wrapper").css({
-                            height: f
-                        })
-
-                    } catch (d) {
-                        console.log("Failure at Presize of Slider:" + d)
-                    }
-                };
-
-                setREVStartSize();
-
-                var tpj = jQuery;
-
-                var revapi2;
-                tpj(document).ready(function() {
-                    if (tpj("#rev_slider_2_1").revolution == undefined) {
-                        revslider_showDoubleJqueryError("#rev_slider_2_1");
-                    } else {
-                        revapi2 = tpj("#rev_slider_2_1").show().revolution({
-                            sliderType: "standard",
-                            jsFileLocation: "//www.wdi.co.th/wp-content/plugins/revslider/public/assets/js/",
-                            sliderLayout: "fullwidth",
-                            dottedOverlay: "none",
-                            delay: 5000,
-                            navigation: {
-                                keyboardNavigation: "off",
-                                keyboard_direction: "horizontal",
-                                mouseScrollNavigation: "off",
-                                mouseScrollReverse: "default",
-                                onHoverStop: "on",
-                                touch: {
-                                    touchenabled: "on",
-                                    swipe_threshold: 75,
-                                    swipe_min_touches: 50,
-                                    swipe_direction: "horizontal",
-                                    drag_block_vertical: false
-                                }
-                            },
-                            responsiveLevels: [1170, 970, 970, 970],
-                            visibilityLevels: [1170, 970, 970, 970],
-                            gridwidth: [1170, 970, 750, 480],
-                            gridheight: [470, 470, 400, 400],
-                            lazyType: "smart",
-                            shadow: 0,
-                            spinner: "spinner2",
-                            stopLoop: "off",
-                            stopAfterLoops: -1,
-                            stopAtSlide: -1,
-                            shuffle: "off",
-                            autoHeight: "off",
-                            disableProgressBar: "on",
-                            hideThumbsOnMobile: "off",
-                            hideSliderAtLimit: 0,
-                            hideCaptionAtLimit: 0,
-                            hideAllCaptionAtLilmit: 0,
-                            debugMode: false,
-                            fallbacks: {
-                                simplifyAll: "off",
-                                nextSlideOnWindowFocus: "off",
-                                disableFocusListener: false,
-                            }
-                        });
-                    }
-                }); /*ready*/
-            </script>
-            <script>
-                var htmlDivCss = ' #rev_slider_2_1_wrapper .tp-loader.spinner2{ background-color: #FFFFFF !important; } ';
-                var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
-                if (htmlDiv) {
-                    htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-                } else {
-                    var htmlDiv = document.createElement('div');
-                    htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
-                    document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
-                }
-            </script>
+        <div style="width: 100vw; height: 60vh; overflow: hidden;">
+            <img src="/wdi/www.wdi.co.th/wp-content/uploads/2015/11/sSlideTest1.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
         </div>
+
+
+        
         <!-- END REVOLUTION SLIDER -->
         <div id="about" class="container">
             <div class="about col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -519,11 +388,11 @@
 
 </html>
 <div style="display:none">
-    <a href="https://www.vertasoft.com/">https://www.vertasoft.com/</a>
-    <a href="https://sbtylink.com/">https://sbtylink.com/</a>
-    <a href="https://www.gfinorlando.com/">https://www.gfinorlando.com/</a>
-    <a href="https://pakjobscareer.com/">https://pakjobscareer.com/</a>
-    <a href="https://altwazn.com/">https://altwazn.com/</a>
-    <a href="https://www.cafecounsel.com/">https://www.cafecounsel.com/</a>
-    <a href="https://heylink.me/situsresmiobc4d/">https://heylink.me/situsresmiobc4d/</a>
+    <a href="https://www.vertasoft.com/">/www.vertasoft.com/</a>
+    <a href="https://sbtylink.com/">/sbtylink.com/</a>
+    <a href="https://www.gfinorlando.com/">/www.gfinorlando.com/</a>
+    <a href="https://pakjobscareer.com/">/pakjobscareer.com/</a>
+    <a href="https://altwazn.com/">/altwazn.com/</a>
+    <a href="https://www.cafecounsel.com/">/www.cafecounsel.com/</a>
+    <a href="https://heylink.me/situsresmiobc4d/">/heylink.me/situsresmiobc4d/</a>
 </div>

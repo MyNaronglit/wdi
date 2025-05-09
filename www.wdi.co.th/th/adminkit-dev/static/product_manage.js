@@ -357,7 +357,66 @@ function createProductFormHTML(categoryOptions, categoryDetailOptions) {
         <h2 class="font-semibold text-gray-800 mb-4 border-b pb-2">🛒 Product Info</h2>
 
         <div class="space-y-4">
-            <div class="mb-4 p-2">
+             <!-- Category -->
+                    <div class="mb-4 p-2">
+                        <label class="block font-medium text-gray-700 mb-4">Category</label>
+                        <div class="flex gap-4 mb-4">
+                            <button type="button" id="category_select" class="px-6 py-2 font-medium text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 transition duration-200 ease-in-out">
+                                Select
+                            </button>
+                            <button type="button" id="category_input" class="px-6 py-2 font-medium text-white bg-gray-600 rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-50 transition duration-200 ease-in-out">
+                                Input
+                            </button>
+                        </div>
+                        <select id="category_select_element" class="input-field mt-2">
+                            ${categoryOptions}
+                        </select>
+
+                        <input id="category_input_element" class="input-field mt-2" placeholder="Enter category">
+                       
+
+                        <!-- ช่องกรอกยี่ห้อ -->
+                        <label id="car_brand_input_label" class="block font-medium text-gray-700 mb-2">Upload brand</label>
+                        <input id="car_brand_input" class="input-field mt-2 hidden" placeholder="Enter car brand">
+                        <div id="upload_section_brand" class="mt-2 hidden">
+                            <input type="file" id="car_image_upload_brand" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"/>
+                        </div>
+
+                        <!-- ช่องรุ่นรถ -->
+                        <label id="car_model_input_label" class="block font-medium text-gray-700 mb-2">Upload model</label>
+                        <input id="car_model_input" class="input-field mt-2 hidden" placeholder="Enter car model">
+                        <div id="upload_section" class="mt-2 hidden">
+                            <input type="file" id="car_image_upload" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"/>
+                        </div>
+                    </div>
+
+
+                <!-- Category Detail -->
+                <div class="mb-4 p-2">
+                    <label id="category_detail_label"  class="block   font-medium text-gray-700 mb-4">Category Detail</label>
+                    <div class="flex gap-4 mb-2">
+                        <button type="button" id="category_detail_select" class="px-6 py-2   font-medium text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 transition duration-200 ease-in-out">
+                            Select
+                        </button>
+                        <button type="button" id="category_detail_input" class="px-6 py-2   font-medium text-white bg-gray-600 rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-50 transition duration-200 ease-in-out">
+                            Input
+                        </button>
+                    </div>
+                    <select id="category_detail_select_element" style="display: none;" class="input-field mt-2">${categoryDetailOptions}</select>
+                    <input id="category_detail_input_element" style="display: none;" class="input-field mt-2 hidden" placeholder="Enter category detail">
+                </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                   
+
+            <!-- Additional Info -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 shadow-sm">
+                <h2 class=" font-semibold text-gray-800 mb-4 border-b pb-2">⚙️ Additional Info</h2>
+                <div class="mb-4 p-2">
                 <label for="product_name" class="block font-medium text-gray-700">Name</label>
                 <input id="product_name" class="input-field" placeholder="Enter product name">
             </div>
@@ -366,14 +425,12 @@ function createProductFormHTML(categoryOptions, categoryDetailOptions) {
                 <input id="item_number" class="input-field" placeholder="Enter item number">
             </div>
             
-            <div class="mb-4 p-2">
-                <label for="status" class="block font-medium text-gray-700">Status</label>
-                <select id="status" class="input-field">
-                    <option value="available">Available</option>
-                    <option value="out_of_stock">Out of Stock</option>
-                    <option value="discontinued">Discontinued</option>
-                </select>
-            </div>
+            <div class="mb-4 p-2"> 
+                        <label class="block   font-medium text-gray-700">Image</label>
+                        <input type="file" id="image" name="image" accept="image/*" class="file-input">
+                    </div>
+
+                   
 
            <!-- Latest Release -->
                 <div class="latest-release-container">
@@ -411,67 +468,7 @@ function createProductFormHTML(categoryOptions, categoryDetailOptions) {
                     </label>
                 </div>
                 </div>
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-                    <!-- Category -->
-                    <div class="mb-4 p-2">
-                        <label class="block font-medium text-gray-700 mb-4">Category</label>
-                        <div class="flex gap-4 mb-4">
-                            <button type="button" id="category_select" class="px-6 py-2 font-medium text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 transition duration-200 ease-in-out">
-                                Select
-                            </button>
-                            <button type="button" id="category_input" class="px-6 py-2 font-medium text-white bg-gray-600 rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-50 transition duration-200 ease-in-out">
-                                Input
-                            </button>
-                        </div>
-
-                        <select id="category_select_element" class="input-field mt-2 hidden">
-                            ${categoryOptions}
-                        </select>
-
-                        <input id="category_input_element" class="input-field mt-2 hidden" placeholder="Enter category">
-
-                        <!-- ช่องกรอกยี่ห้อ -->
-                        <label id="car_brand_input_label" class="block font-medium text-gray-700 mb-2">Upload brand</label>
-                        <input id="car_brand_input" class="input-field mt-2 hidden" placeholder="Enter car brand">
-                        <div id="upload_section_brand" class="mt-2 hidden">
-                            <input type="file" id="car_image_upload_brand" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"/>
-                        </div>
-
-                        <!-- ช่องรุ่นรถ -->
-                        <label id="car_model_input_label" class="block font-medium text-gray-700 mb-2">Upload model</label>
-                        <input id="car_model_input" class="input-field mt-2 hidden" placeholder="Enter car model">
-                        <div id="upload_section" class="mt-2 hidden">
-                            <input type="file" id="car_image_upload" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"/>
-                        </div>
-                    </div>
-
-
-                <!-- Category Detail -->
-                <div class="mb-4 p-2">
-                    <label id="category_detail_label"  class="block   font-medium text-gray-700 mb-4">Category Detail</label>
-                    <div class="flex gap-4 mb-2">
-                        <button type="button" id="category_detail_select" class="px-6 py-2   font-medium text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 transition duration-200 ease-in-out">
-                            Select
-                        </button>
-                        <button type="button" id="category_detail_input" class="px-6 py-2   font-medium text-white bg-gray-600 rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-50 transition duration-200 ease-in-out">
-                            Input
-                        </button>
-                    </div>
-                    <select id="category_detail_select_element" style="display: none;" class="input-field mt-2">${categoryDetailOptions}</select>
-                    <input id="category_detail_input_element" style="display: none;" class="input-field mt-2 hidden" placeholder="Enter category detail">
-                </div>
-
-
-            <!-- Additional Info -->
-            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 shadow-sm">
-                <h2 class=" font-semibold text-gray-800 mb-4 border-b pb-2">⚙️ Additional Info</h2>
-
+                
                 <div class="space-y-4">
                     <div class="mb-4 p-2"><label for="Lens" class="block   font-medium text-gray-700">Lens</label><input id="Lens" class="input-field" placeholder="Lens details"></div>
                     <div class="mb-4 p-2"><label for="Housing" class="block   font-medium text-gray-700">Housing</label><input id="Housing" class="input-field" placeholder="Housing details"></div>
@@ -481,11 +478,6 @@ function createProductFormHTML(categoryOptions, categoryDetailOptions) {
                     <div class="mb-4 p-2"><label for="description" class="block   font-medium text-gray-700">Description</label><textarea id="description" class="input-field h-24" placeholder="Description"></textarea></div>
 
                     <!-- File Uploads -->
-                    <div class="mb-4 p-2"> 
-                        <label class="block   font-medium text-gray-700">Image</label>
-                        <input type="file" id="image" name="image" accept="image/*" class="file-input">
-                    </div>
-
                      <div class="mb-4 p-2">
                         <label class="block font-medium text-gray-700">Function Image</label>
                         <input type="file" id="product_func_image_test" name="product_func_image_test" accept="image/*" multiple class="file-input w-full">
@@ -643,10 +635,10 @@ function validateAndCollectFormData() {
  });
  
  // ตอนเก็บค่า:
- let category = (categoryMode === 'select')
-     ? $('#category_select_element').val().trim()
-     : $('#category_input_element').val().trim();
- 
+ let category = (categoryMode === 'select') 
+    ? $('#category_input_element').val().trim()
+    : $('#category_select_element').val().trim();
+    console.log("Category value: ", category);
  let category_detail = (categoryDetailMode === 'select')
      ? $('#category_detail_select_element').val().trim()
      : $('#category_detail_input_element').val().trim();
@@ -760,6 +752,19 @@ function setupFormEventListeners() {
     $('#category_detail_select_element').addClass('hidden').hide();
     $('#category_detail_input_element').addClass('hidden').hide();
 
+        // ซ่อน Branch ตอนเริ่มต้น
+        $('#Latest_Release').addClass('hidden').hide();
+
+        // แสดง/ซ่อน Branch เมื่อเลือก Yes/No
+        $('input[name="latest_release"]').on('change', function () {
+            const isLatest = $('input[name="latest_release"]:checked').val() === 'latest_release';
+            if (isLatest) {
+                $('#Latest_Release').removeClass('hidden').show();
+            } else {
+                $('#Latest_Release').addClass('hidden').hide();
+            }
+        });
+    
     // Category select / input toggle
     $('#category_select').on('click', function() {
         $('#category_select_element').removeClass('hidden').show();

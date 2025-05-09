@@ -96,7 +96,7 @@
                     </li>
                     <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="/wdi/www.wdi.co.th/th/about.php">เกี่ยวกับ WDI</a></li>
                     <li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="/wdi/www.wdi.co.th/th/media/media.php">มีเดีย</a></li>
-                    <li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="#">ร้านค้า</a></li>
+                    <li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="/wdi/www.wdi.co.th/th/map/mapShow.php">ร้านค้า</a></li>
                 </ul>
             </div>
         </div>

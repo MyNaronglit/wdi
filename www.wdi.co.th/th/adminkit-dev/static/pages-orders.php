@@ -22,9 +22,7 @@ $result = mysqli_query($ierp, $query);
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
 
-	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-orders.php" />
-
-	<title>Add Pruduct | Admin</title>
+    <title>Admin Pages</title>
 
 	<link href="css/app.css" rel="stylesheet">
 	<link href="css/addPD.css" rel="stylesheet">
@@ -181,7 +179,6 @@ $result = mysqli_query($ierp, $query);
 				<div class="container-fluid p-0">
 					<h1 class="h3 mb-3">All Products</h1>
 					<button id="openModal-addProduct" class="btn btn-primary" style="margin-bottom: 10px;">Add Product</button>
-					<button id="openModal-addProduct-Replacement-Parts" class="btn btn-primary" style="margin-bottom: 10px;">Add Product Replacement Parts</button>
 					<div style="margin-bottom: 20px; display: flex; justify-content: flex-end; gap: 10px; padding-right: 20px;">
 						<input type="text" id="searchInput" placeholder="ค้นหาสินค้า..." style="padding: 10px; width: 200px;">
 						<button id="searchBtn" style="padding: 10px; cursor: pointer;">ค้นหา</button>

@@ -21,7 +21,8 @@ if ($result && $result->num_rows > 0) {
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Profile | AdminKit Demo</title>
+    <title>Admin Pages</title>
+	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
 	<link href="css/app.css" rel="stylesheet">
 	<style>
 		/* ✅ Custom Modal Slide Up */
